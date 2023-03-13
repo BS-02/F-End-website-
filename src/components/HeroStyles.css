@@ -1,0 +1,44 @@
+.hero {
+  width: 100%;
+  height: 85vh;
+  position: relative;
+}
+
+.hero-midImage {
+  width: 100%;
+  height: 75vh;
+  position: relative;
+}
+
+.hero-about h1 {
+  padding-top: 4rem !important;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-title {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.hero-title h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  background: rgba(20, 0, 58, 0.945);
+  /* background: rgb(38, 73, 104); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and(max-width: 555px) {
+  .hero-title h1 {
+    padding: 10px 20px;
+  }
+}
