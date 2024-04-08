@@ -12,6 +12,8 @@ This repository contains the front-end code for a simple website. It includes HT
 
 ## Usage
 * Clone the repository to your local machine.
+  
+      git clone https://github.com/BS-02/F-End-website-.git
 * Open the project directory in your preferred code editor.
 * Modify the HTML, CSS, and JavaScript files to customize the website according to your requirements.
 * Test the changes locally to ensure proper functionality and layout.
