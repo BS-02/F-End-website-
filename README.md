@@ -11,7 +11,7 @@ This repository contains the front-end code for a simple website. It includes HT
 * **Browser Compatibility**: The website is tested for compatibility across major web browsers to ensure a consistent user experience.
 
 ## Usage
-* Clone the repository to your local machine.
+* Clone the repository to your local machine, by executing the following command in your terminal:
   
       git clone https://github.com/BS-02/F-End-website-.git
 * Open the project directory in your preferred code editor.
