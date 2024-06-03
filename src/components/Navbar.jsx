@@ -12,7 +12,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        <h1> ABC </h1>
+        <h1> Front-End </h1>
 
         <div className="menu-icons" onClick={this.handleClick}>
           <i
