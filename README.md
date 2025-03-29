@@ -1,7 +1,12 @@
 # A Simple Front-End Website
 
 ## Overview
-This repository contains the front-end code for a simple website. It includes HTML, CSS, and JavaScript files to create a basic user interface for a web application or website.
+This repository contains the front-end code for a simple website. It includes HTML, CSS, and JavaScript files to create a basic user interface for a website.
+
+## **Live Demo 🌐**
+👉 [Live Website](https://gominimalweb.netlify.app/)
+
+--------------------------------
 
 ## Features
 * **Static Content**: The website consists of static content, providing information, images, and links to users.
