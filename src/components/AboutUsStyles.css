@@ -1,18 +1,67 @@
 .about {
-  margin: 4rem 6rem;
-  text-align: start;
+  /* margin: 4rem 8rem;
+  text-align: start; */
+
+    max-width: 800px; /* Limits the width for better readability */
+    margin: 0 auto; /* Centers the content */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 .about h1 {
+  font-family: serif;
   padding-bottom: 1rem;
+  font-family: serif;
+}
+
+.about h2 {
+  padding: 0;
+  font-family: serif;
 }
 
 .about p {
+  padding-top: 2rem;;
   padding-bottom: 2rem;
+  font-size: 20px;
+  font-family: Calibri;
 }
 
+.about strong{
+  font-family: Calibri;
+}
+
+.about ul {
+  list-style-type: none; /* Removes default bullets */
+  padding: 0;
+  margin: 15px 0;
+}
+
+.about li {
+  font-size: 18px;
+  margin: 5px 0;
+  font-family: Calibri;
+}
+ 
 @media screen and (max-width: 850px) {
   .about {
-    margin: 4rem 2rem;
+    margin: 3rem 2rem;
+  }
+
+  .hero-midImage {
+    height: 40vh;
+  }
+
+  .hero-title h1 {
+    font-size: 1rem;
+    padding-top: 6rem;
+  }
+
+  .about h1 {
+    font-size: 1.2rem;
+  }
+
+  .about p {
+    font-size: 1rem;
   }
 }

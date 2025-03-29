@@ -1,0 +1,41 @@
+.Homepage {
+    padding: 4rem;
+  }
+  
+  .Homepage h1 {
+    padding-bottom: 1rem;
+    font-family: serif;
+  }
+  
+  .Homepage p {
+    padding-top: 2rem;
+    font-family: Calibri;
+    font-size: 20px;
+  }
+  
+ .Homepage ul {
+    list-style-type: none; /* Removes default bullets */
+    padding: 0; /* Removes left padding */
+    margin: 0; /* Removes any margin */
+  }
+
+  .Homepage li{
+    font-family: Calibri;
+    font-size: 18px;
+    margin: 5px 0;
+  }
+
+  @media screen and (max-width: 850px) {
+    .hero {
+      height: 40vh;
+    }
+  
+    .Homepage h1 {
+      font-size: 1.2rem;
+    }
+  
+    .Homepage p {
+      font-size: 1rem;
+    }
+  }
+  

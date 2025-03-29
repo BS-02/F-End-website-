@@ -41,7 +41,7 @@ const SignUp = () => {
     } else if (password === "") {
       alert("Password is required");
     } else {
-      console.log("Data saved succesfully");
+      console.log("Data saved");
 
       localStorage.setItem("user", JSON.stringify([...data, inpval]));
     }

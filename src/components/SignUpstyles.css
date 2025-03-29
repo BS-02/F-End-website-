@@ -28,6 +28,11 @@
 .form-sign button {
   display: inline;
 }
+
+.form-sign button:hover {
+  transform: none;
+}
+
 .form-sign p {
   margin-top: 2rem;
   font-size: medium;
@@ -43,5 +48,8 @@
     margin: auto;
     padding-top: 2rem;
     width: 60%;
+  }
+  .form-sign h1 {
+    font-size: xx-large;
   }
 }
